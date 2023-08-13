@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Serif Pro", serif;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+.navbar-expand-lg .navbar-collapse ul li {
+  padding: 0 10px;
+}
+.navbar-expand-lg .navbar-collapse ul li a:hover {
+  background-color: darkcyan;
+}
+
+.projectsec {
+  padding-top: 60px;
+}
+.projectsec h2 {
+  text-align: center;
+  padding: 0px 0 40px;
+}
+.projectsec ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 40px;
+  justify-content: center;
+}
+.projectsec ul li {
+  margin-bottom: 10px;
+}
+.projectsec ul li a {
+  text-decoration: none;
+  border: 10px solid #000;
+  display: block;
+}
+.projectsec ul li a img {
+  width: 100%;
+}
+.projectsec ul li:last-child {
+  margin-bottom: 0;
+}
+
+.mainSec {
+  background: url(../images/clouds.png) repeat-x top center;
+  background-size: contain;
+  background-repeat: repeat;
+  background-color: #41b0bf;
+  border-right: 20px solid #fff;
+  border-left: 20px solid #fff;
+  height: 100vh;
+  padding-bottom: 20px;
+}
+.mainSec .plan-wrap {
+  text-align: center;
+}
+.mainSec .plan-wrap img {
+  text-align: center;
+  padding-top: 20px;
+}
+.mainSec .headerContentWrap h2 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 80px;
+  color: #fff;
+}
+.mainSec .headerContentWrap p {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.about-sec {
+  padding-top: 60px;
+}
+.about-sec .row {
+  align-items: center;
+}
+.about-sec .profile-img {
+  width: 100%;
+}
+.about-sec .social-sec {
+  padding-top: 10px;
+}
+.about-sec .social-sec i {
+  font-size: 30px;
+  margin: 0 10px;
+}
+.about-sec .social-sec .fa-facebook-official {
+  margin-left: 0;
+  font-size: 3em !important;
+  color: blue;
+}
+.about-sec .social-sec .fa-envelope-o {
+  color: red;
+  font-size: 3em !important;
+}
+.about-sec .social-sec .fa-linkedin-square {
+  font-size: 3em !important;
+  color: #287bbc;
+}
+.about-sec .social-sec .fa-instagram {
+  font-size: 3em !important;
+  color: #8a3ab9;
+}
+
+.skill-sec {
+  text-align: center;
+  padding-top: 60px;
+}
+.skill-sec h3 {
+  padding: 20px 0;
+  font-size: 40px;
+}
+.skill-sec h2 {
+  text-align: left;
+}
+.skill-sec a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.resume-sec {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.resume-sec h3 {
+  text-align: center;
+}
+.resume-sec a {
+  display: block;
+  text-align: center;
+}
+
+.footer {
+  border-top: 1px dotted;
+}
+.footer .row {
+  padding-top: 40px;
+}
+.footer .para {
+  text-align: right;
+}
+.footer .para i {
+  color: red;
+}
+.footer .fImg {
+  width: 100%;
+}
+
+.btnTop {
+  border-radius: 50%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btnTop i {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer p {
+    text-align: center;
+  }
+  .footer .para {
+    text-align: center;
+  }
+  .about-sec .social-sec {
+    padding: 20px 0 0;
+  }
+  .about-sec h3 {
+    padding: 20px 0 10px;
+  }
+  .skill-sec {
+    padding-top: 0;
+  }
+  .projectsec {
+    padding-top: 40px;
+  }
+  .resume-sec {
+    padding: 40px 0 40px;
+  }
+  .resume-sec a img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

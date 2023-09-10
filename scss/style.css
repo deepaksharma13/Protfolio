@@ -40,6 +40,12 @@
 .projectsec ul li a img {
   width: 100%;
 }
+.projectsec ul li a.third {
+  padding: 5px;
+}
+.projectsec ul li a.third img {
+  width: 220px;
+}
 .projectsec ul li:last-child {
   margin-bottom: 0;
 }

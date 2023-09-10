@@ -48,11 +48,18 @@
                 img{
                     width: 100%;
                 }
+                &.third{
+                    padding: 5px;
+                    img{
+                        width: 220px;
+                    }
+                }
             }
 
             &:last-child {
                 margin-bottom: 0;
             }
+        
         }
     }
 }
@@ -213,6 +220,9 @@
         font-size: 18px;
     }
 }
+
+
+
 
 
 @media screen and (max-width:768px) {
